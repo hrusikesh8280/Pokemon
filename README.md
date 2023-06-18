@@ -1,70 +1,41 @@
-# Getting Started with Create React App
+# Pokemon Explorer
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Pokemon Explorer is a web application that allows users to explore and bookmark Pokemon information. It provides a user-friendly interface to search for Pokemon, view their details, and bookmark them for quick access. The application is built using React and Chakra UI, with data fetched from the PokeAPI.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- Search Pokemon: Enter the name of a Pokemon to search and retrieve its details.
+- Listing Page: View a list of Pokemon matching the search query, with their names and images.
+- Details Page: Get in-depth information about a specific Pokemon, including its abilities, types, height, and weight. Users can also bookmark their favorite Pokemon from this page.
+- Bookmarks Page: Access all bookmarked Pokemon in one place. Remove bookmarks if desired.
 
-### `npm start`
+- ## Screenshots
+- ### Search Page
+- ![seraching](https://github.com/hrusikesh8280/Pokemon/assets/86557158/3bc77ee0-870b-419e-9a9d-f3f245247efa)
+### Listing Page
+![Listing page](https://github.com/hrusikesh8280/Pokemon/assets/86557158/c4032df2-92d7-490f-99e9-ec6a09a3c9b1)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Details Page
+![Details Page](https://github.com/hrusikesh8280/Pokemon/assets/86557158/45f77674-62a2-40d6-a9b9-f4a649768ddb)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Bookmarks Page
+![Bookmarks Page](https://github.com/hrusikesh8280/Pokemon/assets/86557158/78088c8d-9bd8-4552-8927-4ef4fdacd8b7)
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Installation
 
-### `npm run build`
+1. Clone the repository: `git clone https://github.com/hrusikesh8280/Pokemon`
+2. Navigate to the project directory: `cd Fronted`
+3. Install dependencies: `npm install`
+4. Start the development server: `npm start`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Technologies Used
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- React: JavaScript library for building user interfaces
+- Chakra UI: Modular and accessible component library for React
+- PokeAPI: RESTful API for retrieving Pokemon data
+  
+## Contributing
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Contributions are welcome! If you encounter any issues or have suggestions for improvements, please open an issue or submit a pull request.
+  
